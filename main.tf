@@ -3,7 +3,6 @@ provider "digitalocean" {
 }
 
 resource "digitalocean_droplet" "drone" {
-  # https://developers.digitalocean.com/documentation/v2/#images
   image    = "${var.image}"
   name     = "${var.server_name}"
   region   = "${var.region}"

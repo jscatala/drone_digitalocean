@@ -4,3 +4,6 @@ variable "region" {}
 variable "size" {}
 variable "image" {}
 variable "ssh_fp" {}
+variable "priv_key_path" {}
+variable "username" {}
+variable "port" {}
